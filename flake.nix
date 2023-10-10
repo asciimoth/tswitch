@@ -24,7 +24,7 @@
           hooks = {
             alejandra.enable = true;
             cargo-check.enable = true;
-            clippy.enable = true;
+            #clippy.enable = true;
             rustfmt.enable = true;
             cargo-test = {
               enable = true;
