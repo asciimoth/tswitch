@@ -26,6 +26,12 @@
             cargo-check.enable = true;
             clippy.enable = true;
             rustfmt.enable = true;
+            cargo-test = {
+              enable = true;
+              entry = "cargo test";
+              pass_filenames = false;
+              language = "rust";
+            };
           };
         };
       };
